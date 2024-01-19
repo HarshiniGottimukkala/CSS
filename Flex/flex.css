@@ -1,0 +1,55 @@
+/* .parent {
+    height: 600px;
+    width: 600px;
+    background-color: rgb(159, 98, 216);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+
+}
+
+.child1,
+.child2,
+.child3,
+.child4 {
+    width: 100px;
+    height: 100px;
+}
+
+.child1 {
+    background-color: black;
+}
+
+.child2 {
+    background-color: rgb(225, 12, 12);
+}
+
+.child3 {
+    background-color: rgb(13, 241, 9);
+}
+
+.child4 {
+    background-color: blue;
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.vl {
+    border-left: 1px solid rgb(7, 7, 7);
+    height: 100vh;
+}

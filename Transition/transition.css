@@ -1,0 +1,13 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 100px;
+    transition: all 1s ease-in 1s;
+
+}
+.box:hover{
+    background-color: aqua;
+    width: 300px;
+    transform: skew(45deg);
+}

@@ -1,0 +1,33 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100vh;
+    
+}
+.boxes{
+    width:600px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    gap: 20px;
+    
+}
+.box1,.box2,.box3,.box4,.box5{
+    width: 200px;
+    height: 200px;
+}
+.box1,.box3,.box5{
+    background-color:rgb(242, 122, 36);
+
+}
+.box2,.box4{
+    background-color: rgb(249, 4, 188);
+
+}

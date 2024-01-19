@@ -1,0 +1,20 @@
+p::before{
+   content: 'Hello......';
+}
+
+h1::after{
+   content: ' How are you?';
+}
+
+h2::first-letter{
+    color: orangered ;
+    
+}
+
+h3::first-line{
+    color: blueviolet;
+}
+
+h4::selection{
+    background-color: grey;
+}

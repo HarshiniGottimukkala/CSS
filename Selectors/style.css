@@ -1,0 +1,12 @@
+p{
+    color: brown;
+}
+#id{
+    color: red;
+}
+.class{
+    color: blueviolet;
+}
+.div .h,#i{
+    color: rgb(128, 10, 154);
+}

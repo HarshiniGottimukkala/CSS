@@ -1,0 +1,36 @@
+.box{
+    width:200px;
+    height:200px;
+    background-color: rgb(12, 177, 232);
+    margin: 70px;
+    transform: rotate(50deg);
+    
+}
+.box1{
+    width:200px;
+    height:200px;
+    background-color: rgb(12, 177, 232);
+    margin: 70px;
+    transform: translateX(-50px);
+}
+.box2{
+    width:200px;
+    height:200px;
+    background-color: rgb(12, 177, 232);
+    margin: 70px;
+    transform: translateY(10px);
+}
+.box3{
+    width:200px;
+    height:200px;
+    background-color: rgb(12, 177, 232);
+    margin: 70px;
+    transform: scale(1.5);
+}
+.box4{
+    width:200px;
+    height:200px;
+    background-color: rgb(12, 177, 232);
+    margin: 150px;
+    transform: skew(45deg);
+}

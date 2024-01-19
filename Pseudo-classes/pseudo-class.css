@@ -1,0 +1,30 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.box:hover{
+    background-color: blue;
+}
+
+
+a:link{
+    color: orangered ;
+}
+a:visited{
+    color: rgb(2, 58, 7);
+}
+
+
+p:nth-child(even){
+    color: blue;
+}
+p:nth-child(odd){
+    color: rgb(255, 17, 0);
+}
+
+input:focus{
+    background-color: gray;
+    
+   
+}

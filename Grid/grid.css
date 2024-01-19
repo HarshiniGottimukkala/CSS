@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.boxes{
+    width:600px;
+/*     background-color: aqua;
+ */ display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr ;
+    /* row-gap:20px; */
+    /* column-gap: 20px; */
+    gap: 20px;
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9{
+    width: 200px;
+    height: 200px;
+}
+.box1,.box3,.box5,.box7,.box9{
+    background-color:rgb(242, 122, 36);
+
+}
+.box2,.box4,.box6,.box8{
+    background-color: rgb(249, 4, 188);
+
+}

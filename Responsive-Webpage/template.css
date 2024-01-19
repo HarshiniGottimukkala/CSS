@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,li,button,span,p{
+    font-family:'Times New Roman', Times, serif
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+    padding: 0 40px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+.logo h3{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.menu .nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.menu .nav-links li{
+    list-style: none;
+    
+}
+
+
+.menu .nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+nav .burger{
+    display: none;
+}
+
+@media(max-width:900px) {
+    nav .burger{
+        display: block;
+    }
+    nav .burger div{
+        background-color: white;
+        height: 3px;
+        width: 40px;
+        margin: 10px;
+    } 
+    nav .menu{
+        display: none;
+    }
+    
+}
+
+.container{
+    background-image: url(int.avif);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.container .content{
+    backdrop-filter: blur(10px);
+    background-color: rgb(255,255,255,0.1);
+    width: 400px;
+    height: 170px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.container .content h3{
+    color: rgb(41, 40, 40);
+    font-size: 18px;
+}
+.container .content h1{
+    font-size: 30px;
+}
+
+@media(max-width:470px){
+    
+    .container .content h3{
+        color: rgb(41, 40, 40);
+        font-size: 15px;
+    }
+    .container .content h1{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:420px){
+
+    .container .content{
+       
+        width: 300px;
+        height: 100px;
+        padding: 10px;
+        
+    }
+    
+    .container .content h3{
+        color: rgb(41, 40, 40);
+        font-size: 12px;
+    }
+    .container .content h1{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:370px){
+
+    .container .content{
+       
+        width: 300px;
+        height: 100px;
+        padding: 5px;
+        
+    }
+    
+    .container .content h3{
+        color: rgb(41, 40, 40);
+        font-size: 12px;
+    }
+    .container .content h1{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,9 @@
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    background-image:url(sky.jpg) ;
+    background-position ;
+    background-repeat: no-repeat ;
+    background-size: contain;
+}

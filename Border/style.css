@@ -1,0 +1,9 @@
+.border{
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    border: 10px  black;
+    border-style: double;
+    border-radius: 60%;
+    
+}

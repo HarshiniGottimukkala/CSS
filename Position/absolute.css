@@ -1,0 +1,22 @@
+.parent{
+    background-color: rgb(21, 21, 21);
+   /*  position: relative; */
+}
+.child1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.child2{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 72, 0);
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+.child3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 162);
+}
